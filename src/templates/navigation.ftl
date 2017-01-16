@@ -39,15 +39,6 @@
                      </form>
                      <!-- END RESPONSIVE QUICK SEARCH FORM -->
                   </li>
-                  <li class="nav-item start open">
-                     <a href="javascript:;" class="nav-link nav-toggle">
-                     <i class="icon-home"></i>
-                     <span class="title">Dashboard</span>
-                     </a>
-                  </li>
-                  <li class="heading">
-                     <h3 class="uppercase">Features</h3>
-                  </li>
 				<#foreach nav_item in nav_items>
 					<li class="nav-item">
 					<a href="${nav_item.getURL()}"  ${nav_item.getTarget()}  aria-labelledby="layout_${nav_item.getLayoutId()}" class="nav-link nav-toggle">
